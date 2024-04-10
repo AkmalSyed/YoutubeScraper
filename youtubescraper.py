@@ -55,7 +55,7 @@ for i in range(len(elements_titlelengthdate)):
     df.loc[i] = [i_title, i_length, i_daysago, i_link]
 
 
-# for one link, open and save the date published:
+# Code to execute for just one link (rather than recursively over a list of links):
 """
 url = "https://www.youtube.com/watch?v=-2pjLNrHka4"
 browser.get(url)
